@@ -1,0 +1,21 @@
+{
+  "name": "proyectofinal",
+  "version": "0.0.1",
+  "description": "Primera entrega del proyecto final del curso de backend CoderHouse.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon --inspect src/app.js"
+  },
+  "author": "Tobias Mesa",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^6.0.6",
+    "socket.io": "^4.5.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.29.0"
+  }
+}
